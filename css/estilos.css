@@ -1,0 +1,21 @@
+p{
+    color: green;
+
+}
+.segundo_parrafo{
+    color: white;
+    border: solid 1px white;
+    padding: 20px;
+}
+
+body {
+    background-color: black;
+}
+
+#titulo_principal{
+    color: blueviolet;
+}
+
+.titulo-secundario{
+    color: chocolate;
+}
