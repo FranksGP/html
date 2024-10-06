@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+.parrafo{
+    display: flex; /*de cambia al display flex*/
+    justify-content: center;
+}
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;/*permite que no se salga de los limites de la pagina*/
+    justify-content:space-around;/*las imagenes cambian de posicion*/
+
+}
+.box {
+    width: 25%;/*damos espacio*/
+}
+
+.box img {
+    width: 100%;/*agrandamos las imagenes*/
+}
+
+
