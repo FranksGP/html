@@ -1,0 +1,14 @@
+/* Estilo del contenedor padre */
+.features {
+    background-color: #f0f0f0; /* Color de fondo */
+    padding: 20px;
+    display: flow-root;  /*Hacemos que el contenedor "features" maneje correctamente sus elementos flotantes */
+}
+
+/* Estilo para los párrafos dentro de la clase 'features' */
+.features p {
+    float: left; /* Los párrafos flotan a la izquierda */
+    width: 33%; /* Cada párrafo ocupa el 33% del ancho del contenedor */
+    padding: 10px;
+    box-sizing: border-box;
+}
